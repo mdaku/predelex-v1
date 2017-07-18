@@ -8,10 +8,19 @@ Package for the pre-processing of text to be used with lexicoder, or other text 
 
 ## Usage
 
-`predelex --function file.txt`
+`java Predelex --function file.txt`
 
-`predelex --function directory`
+`java Predelex --function directory`
 
+Or, if you want to use the plx script (makes for cleaner code):
+1. Make sure the script is executable: `chmod +x plx`
+2. Make sure that the script points to the classpath where predelex is located
+3. Make sure that plx is in your path, either explicitly by calling `./plx` or by altering the system path to include the directory where `plx` resides.
+
+Now you should be able to run predelex like this:
+`plx --function file.txt`
+
+`plx --function directory`
 
 ## Basic Functions
 ### Implemented
