@@ -1,4 +1,4 @@
-# predelex
+# predelex v1.0
 Package for the pre-processing of text to be used with lexicoder, or other text analysis packages.
 
 
@@ -79,8 +79,10 @@ No it is not
 
 
 
-## Backup Functions
-`predelex` automatically creates backup files of the original text you are cleaning. These are stored as hidden files in the same directory.  Sometimes (when you have a very large dataset, or when you have already made backups) you will not want to back these files up, but in general it is recommended. Note that this is a very basic backup procedure, and is really just a safeguard for new users who may make simple mistakes. Best practice is to always retain a backup of your original files
+## Backup Functions (currently disabled)
+* Note: For version 1.0, the backup funcitons have been disabled.  Please make your own backup.
+
+`predelex` (normally) automatically creates backup files of the original text you are cleaning. These are stored as hidden files in the same directory.  Sometimes (when you have a very large dataset, or when you have already made backups) you will not want to back these files up, but in general it is recommended. Note that this is a very basic backup procedure, and is really just a safeguard for new users who may make simple mistakes. Best practice is to always retain a backup of your original files
 
 `--no-backup` - instructs predelex not to create backups of the files you are altering.
 
